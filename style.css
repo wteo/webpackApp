@@ -8,6 +8,7 @@ div {
   padding: 2.5% 7.5%;
   border: 5px solid var(--font-color);
   border-radius: 10px;
+  height: 45%;
 }
 
 p {
