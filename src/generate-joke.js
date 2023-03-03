@@ -1,9 +1,9 @@
 export default function generateJoke() {
   const id = document.querySelector('#answer');
-  if (id.innerHTML == ' ') {
-    id.innerHTML = 'I am me!'
+  if (id.innerHTML == '') {
+    id.innerHTML = 'Boo!'
   } else {
-    id.innerHTML = ' ';
+    id.innerHTML = '';
   }
 }
 
